@@ -1,4 +1,4 @@
-# Text Editor (PWA)
+# JATE Text Editor (PWA)
 Link to deployed application => https://
 
 ## Table of Contents
