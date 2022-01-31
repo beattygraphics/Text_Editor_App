@@ -7,7 +7,7 @@
     "start:dev": "cd server && npm run server",
     "start": "npm run server",
     "server": "cd server && npm run server",
-    "build": "cd client && webpack --mode production",
+    "build": "cd client && npm install --dev && webpack --mode production",
     "install": "",
     "client": "cd client && npm start"
     
