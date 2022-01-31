@@ -9,7 +9,7 @@
     "server": "cd server && npm run server",
     "build": "cd client && webpack --mode production",
     "install": "",
-    "client": "cd client && npm start",
+    "client": "cd client && npm start"
     
   },
   "keywords": [],
