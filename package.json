@@ -10,7 +10,7 @@
     "build": "cd client && webpack --mode production",
     "install": "",
     "client": "cd client && npm start",
-    "heroku-postbuild": "webpack -p"
+    
   },
   "keywords": [],
   "author": "",
