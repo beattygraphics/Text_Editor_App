@@ -9,8 +9,8 @@
     "server": "cd server && npm run server",
     "build": "cd client && npm install --dev && webpack --mode production",
     "install": "",
-    "client": "cd client && npm start"
-    
+    "client": "cd client && npm start",
+    "heroku-prebuild": "npm install --dev"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^5.67.0"
   }
 }
