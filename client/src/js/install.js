@@ -1,5 +1,15 @@
 const butInstall = document.getElementById('buttonInstall');
 
+window.addEventListener('load', (event) => {
+    console.log('The page has fully loaded');
+    const promptEvent = window.deferredPrompt;
+
+    if (!promptEvent) {
+        console.log("App already installed");
+        butInstall.classList.toggle('hidden', true);
+    }
+});
+
 // Logic for installing the PWA
 // TODO: Add an event handler to the `beforeinstallprompt` event
 window.addEventListener('beforeinstallprompt', (event) => {

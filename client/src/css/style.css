@@ -213,3 +213,10 @@ h1 {
 .hidden{
   display:none;
 }
+
+main{
+  height:900px;
+}
+.CodeMirror{
+  height:100%;
+}
