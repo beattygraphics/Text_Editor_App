@@ -7,9 +7,10 @@
     "start:dev": "cd server && npm run server",
     "start": "npm run server",
     "server": "cd server && npm run server",
-    "build": "",
+    "build": "cd client && webpack --mode production",
     "install": "",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "heroku-postbuild": "webpack -p"
   },
   "keywords": [],
   "author": "",
